@@ -1,0 +1,41 @@
+	body{		
+		background-image: url("../images/background.jpg");
+		background-color: black;
+		background-repeat: no-repeat;
+		background-size: cover;	
+			}
+	
+	.addTrain {
+		color:whitesmoke;
+		margin-left: 50px;
+		margin-right: 50px;
+			}
+
+	input[type=text] {
+			background-color:lightgray;
+			color: black;
+			}
+	
+	#submit {
+			color:black;
+			}
+	#tableTitle {
+			color: white;
+			}
+
+	#table {
+			background-color: lightgray;
+			}
+	#trainSchedule{
+		background-color:lightgray;
+		color:black;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.trainTable{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	
+	

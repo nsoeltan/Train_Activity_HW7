@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>It's That Time of The Year....</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script src="https//fonts.googleapis.com/css?family=Contrail+One"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div id="whoville">
+    <div id="trainSchedule">
+      <h2 class="text-center"><strong>Whoville's Train Schedule</strong> </h2>
+      <h5 class="text-center">"The nerve of those Whos. Inviting me down there - and on such short notice. Even if I
+        wanted to go my schedule wouldn't allow it. Four o'clock, wallow in self pity; 4:30, stare into the abyss;
+        5:00, solve world hunger, tell no one. 5:30, jazzercize. 6:30, dinner with me. I can't cancel that again..."</h5>
+    </div>
+
+    <div class="trainTable" id="tableTotal">
+
+      <table class="table table-hover" id="table">
+        <thead>
+          <tr>
+            <th>
+              <h5><strong>Train Name</h5></strong>
+            </th>
+            <th>
+              <h5><strong>Destination</h5></strong>
+            </th>
+            <th>
+              <h5><strong>Frequency (min)</h5></strong>
+            </th>
+            <th>
+              <h5><strong>Next Arrival</h5></strong>
+            </th>
+            <th>
+              <h5><strong>Minutes Away</h5></strong>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <br>
+
+  <div class="addTrain">
+    <h3><strong>Add a Train</strong></h3>
+    <form id="inputBox">
+      <label for="trainName">Train Name</label>
+      <br>
+      <input id="trainName" type="text">
+      <br>
+      <br>
+
+      <label for="destination">Destination</label>
+      <br>
+      <input id="destination" type="text">
+      <br>
+      <br>
+
+      <label for="firstTrain">First Train Time (HH:MM - Military Time)</label>
+      <br>
+      <input id="firstTrain" type="text">
+      <br>
+      <br>
+
+      <label for="frequency">Frequency (in Min)</label>
+      <br>
+      <input id="frequency" type="text">
+      <br>
+      <br>
+
+      <button id="submit" type="submit"><strong>Submit</strong></button>
+    </form>
+  </div>
+
+
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
