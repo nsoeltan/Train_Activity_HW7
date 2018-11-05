@@ -7,8 +7,7 @@
 	
 	.addTrain {
 		color:whitesmoke;
-		margin-left: 50px;
-		margin-right: 50px;
+		
 			}
 
 	input[type=text] {
@@ -29,13 +28,20 @@
 	#trainSchedule{
 		background-color:lightgray;
 		color:black;
-		margin-left: 50px;
-		margin-right: 50px;
 	}
 
 	.trainTable{
-		margin-left: 50px;
-		margin-right: 50px;
+		
 	}
 	
-	
+	 
+        /* Small Devices */
+        @media screen and (max-width : 360px) {
+            .container {
+                width: 100%;
+            }
+
+            .main-section {
+                width: 100%;
+            }
+        }
